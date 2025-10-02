@@ -62,4 +62,4 @@ if (nChiffre1 === nCombinaison1 && nChiffre2 === nCombinaison2 && nChiffre3 === 
 }
 else {
     alert("Dommage, ce n'est pas le bon code.");
-}1
+}
