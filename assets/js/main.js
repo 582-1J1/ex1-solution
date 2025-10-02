@@ -4,6 +4,11 @@
  * @author Camille Semaan
  */
 
+/************************* REMARQUE IMPORTANTE ********************************/
+// Il est important de noter que la solution donnée ici est minimale et utilise
+// uniquement les éléments de programmation et de code JS vus en classe.
+/******************************************************************************/
+
 /** @type {HTMLCanvasElement} */
 let oCanvas = document.querySelector("#scene");
 let oCtx = oCanvas.getContext("2d");
@@ -27,7 +32,6 @@ let largeurRectangle = 100;
 let hauteurRectangle = 200; 
 
 // On vérifie chaque chiffre et on dessine un rectangle vert ou rouge selon le cas
-
 // Premier chiffre
 if (nChiffre1 === nCombinaison1) {
     oCtx.fillStyle = "green";
